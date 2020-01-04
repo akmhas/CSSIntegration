@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="259526" started-at="2019-10-21T01:57:54Z" finished-at="2019-10-21T02:02:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="259526" started-at="2019-10-21T01:57:54Z" finished-at="2019-10-21T02:02:13Z">
+      <class name="css.com.HFR.Tests.FaceBookLoginTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:css.com.HFR.Tests.FaceBookLoginTest@67a20f67]" name="setupDriver" is-config="true" duration-ms="16176" started-at="2019-10-20T21:57:54Z" finished-at="2019-10-20T21:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:css.com.HFR.Tests.FaceBookLoginTest@67a20f67]" name="setupTest" is-config="true" duration-ms="6747" started-at="2019-10-20T21:58:10Z" finished-at="2019-10-20T21:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="FAIL" signature="loginFailTest()[pri:0, instance:css.com.HFR.Tests.FaceBookLoginTest@67a20f67]" name="loginFailTest" duration-ms="233109" started-at="2019-10-20T21:58:17Z" finished-at="2019-10-20T22:02:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to locate element by [By.name: email]. See screenshots
+[Ljava.lang.StackTraceElement;@53bc1328]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to locate element by [By.name: email]. See screenshots
+[Ljava.lang.StackTraceElement;@53bc1328
+	at org.testng.Assert.fail(Assert.java:93)
+	at css.com.GlobalPageHelpers.findWebElementBy(GlobalPageHelpers.java:71)
+	at css.com.GlobalPageHelpers.setField(GlobalPageHelpers.java:55)
+	at css.com.GlobalPageHelpers.setField(GlobalPageHelpers.java:50)
+	at css.com.HFR.Pages.HomePage.loginFacebook(HomePage.java:24)
+	at css.com.HFR.Tests.FaceBookLoginTest.loginFailTest(FaceBookLoginTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:css.com.HFR.Tests.FaceBookLoginTest@67a20f67]" name="tearDown" is-config="true" duration-ms="3379" started-at="2019-10-20T22:02:10Z" finished-at="2019-10-20T22:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- css.com.HFR.Tests.FaceBookLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
